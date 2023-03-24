@@ -47,3 +47,22 @@ input[type = "text"], input[type = "email"], input[type = "number"], .current-ro
     padding: 5px;
     border-radius: 5px;
 }
+textarea {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.submit-button {
+    color: white;
+    background-color: green;
+    border-radius: 3px;
+    height: 30px;
+}
+
+.submit-button:hover {
+    background-color: rgb(85, 252, 85);
+}
+
+.submit-button:active {
+    background-color: rgb(4, 82, 4);
+}
