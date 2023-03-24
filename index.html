@@ -21,6 +21,21 @@
             <div class="age-container">
                 <label for="age">Age (Optional)</label><input type="number" name="age" id="age" placeholder="Enter your age">
             </div>
+            <div class="current-role-container">
+                <label for="current">Which option best describes your current role?</label>
+                <select id="most-like" name="current-role" class="current-role" required>
+                    <option disabled selected value="">Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">Open Source</option>
+                  </select>
+            </div>
+            <div class="recommend-container">
+                <label for="">Would you recommend Microverse to a friend?</label>
+                <div class="radio-container">
+                    <input type="radio" value="Definitely" name="q1" id="q1-o1"><label for="q1-o1">Definitely</label>
+                </div>
         </form>
     </div>
 </div>
